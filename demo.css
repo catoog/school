@@ -18,7 +18,6 @@ body{
     color: lightgray;
     border-radius: 10px;
     display: inline-block;
-    vertical-align: top;
     margin: 20px;
 }
 .block1{
@@ -63,4 +62,10 @@ ul{
     align-content: center;
     color: rgb(150, 150, 150);
     list-style-type: none;
+}
+hr{
+    border: solid;
+    border-widht:0.5px;
+    color: rgb(150, 150, 150)
+    background
 }
