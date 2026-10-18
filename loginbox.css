@@ -1,0 +1,83 @@
+html{
+    min-height: 100%;
+    background-image: linear-gradient(to bottom right, purple , red,orange);
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-login{
+    height: 500px;
+    width: 380px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-size: 28pt;
+    text-align: center;
+    align-content: center;
+    color: white;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 5%;
+    box-shadow: 0 0 45px 15px rgba(255, 255, 255, 0.45);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2));
+}
+.Title{
+    margin-top: -50px;
+    font-weight: bold;
+}
+.ligne-dégradé{
+    width: 120px;
+    height: 8px;
+    margin-left: 130px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, purple , red,orange);
+}
+.label{
+    font-size: 16pt;
+    font-weight: 400; 
+    margin-left: -90px;
+}
+.username{
+    width: 200px;
+    height: 18pt;
+    border-radius: 10px;
+    border-style: none;
+  
+}
+.email{
+    width: 200px;
+    height: 18pt;
+    border-radius: 10px;
+    border-style: none;
+}
+.email:valid{
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(0, 150, 27);
+
+    
+}
+.password{
+    width: 200px;
+    height: 18pt;
+    border-radius: 10px;
+    border-style: none;
+}
+.password:invalid{
+    border: 2px;
+    border-style: solid;
+    border-color: red;
+}
+.submit{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 25px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to right,rgb(30, 144, 255),rgb(0, 0, 255));
+}
+.submit:hover{
+    box-shadow: 0 8px 16px rgb(0, 0, 0,0.6);
+}
